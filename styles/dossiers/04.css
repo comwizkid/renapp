@@ -1,0 +1,231 @@
+eon/*
+##########################################################################
+##########################################################################
+		Default Layout: 952px.
+		Content-Element width: 952px.
+		Gutters: 24px.
+		Outer content margins: 28px.
+		Leftover space for scrollbars @1024px: 32px.
+##########################################################################
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    
+##########################################################################
+##########################################################################
+*/
+
+.demo2_logo {
+    float: left;
+    height: 78px;
+    padding-top: 30px;
+}
+	
+.text_logo {
+    float: right;
+    margin-right: 142px;
+    margin-top: 51px;
+}
+
+.text_logo > h1 {
+    color: #9DCA38;
+    font-family: verdana;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+	
+
+#divThumbnails {
+    position: relative;
+}
+
+.staff_container {
+    margin-left: 75px;
+}
+
+
+
+.staff {
+    float: left;
+    height: 325px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    width: 208px;
+}
+
+
+
+
+.pCont {
+    background: none repeat scroll 0 0 #F6F6F6;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 13px 0;
+    text-align: center;
+}
+
+
+
+.pCont p {
+/*    background: url("../../images/crossSign.jpg") no-repeat scroll 0 0 transparent;*/
+    color: #555555 !important;
+    font-family: verdana;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 0;
+    margin-left: 5px;
+/*    padding: 0 10px 0 25px;*/
+    text-transform: uppercase;
+}
+
+
+span {
+    font-size: 9px;
+    text-transform: uppercase;
+}
+
+
+#divThumbnails img {
+    border: none !important;
+    border-radius: 0px !important	;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    height: 200px;
+    max-width: 300px;
+    padding: 0px !important;
+    z-index: 1;
+}
+
+.noimage {
+	background:#bebebe;
+	width:208px;
+	height:266px;	
+}
+
+/*
+##########################################################################
+##########################################################################
+		Tablet Layout: 768px.
+		Content-Element width: 712px.
+		Gutters: 24px.
+		Outer content margins: 28px.
+		Inherits styles from: Default Layout.
+##########################################################################
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    
+##########################################################################
+##########################################################################
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+
+	
+}
+
+
+/*
+##########################################################################
+##########################################################################
+		iPad Layout Portrait: 768px.
+		Content-Element width: 712px.
+		Gutters: 24px.
+		Outer content margins: 28px.
+		Inherits styles from: Default Layout.
+##########################################################################
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712   
+##########################################################################
+##########################################################################
+ */
+ 
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+	
+
+	
+	
+	}
+
+
+/*
+##########################################################################
+##########################################################################
+		iPad Layout Landscape: 1024px.
+		Content-Element width: 896px.
+		Gutters: 24px.
+		Outer content margins: 64px.
+		Inherits styles from: Default Layout.
+##########################################################################
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    
+##########################################################################
+##########################################################################
+*/
+
+@media only screen and (max-device-width: 1024px) and (orientation:landscape) {
+	
+	
+	}
+
+
+/*
+##########################################################################
+##########################################################################
+		Mobile Layout: 320px.
+		Content-Element width: 292px.
+		Gutters: 24px.
+		Outer content margins: 14px.
+		Inherits styles from: Default Layout.
+##########################################################################
+cols    1     2      3
+px      68    160    252    
+##########################################################################
+##########################################################################
+*/
+
+@media only screen and (max-width: 767px) {
+	
+	
+	
+}
+
+
+/*		
+##########################################################################
+##########################################################################
+		Wide Mobile Layout: 480px.
+		Content-Element width: 436px.
+		Gutters: 24px.
+		Outer content margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+#########################################################################
+cols    1     2      3      4      5
+px      68    160    252    344    436    
+##########################################################################
+##########################################################################
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+
+
+	
+}
+
+/*		
+##########################################################################
+##########################################################################
+	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+######################################################################### 
+##########################################################################
+*/
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+	
+}
+
+
+

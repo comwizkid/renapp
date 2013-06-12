@@ -1,0 +1,595 @@
+<!--
+#####################################################################
+LAKER Version 1.2 – http://www.lakercompendium.com
+#####################################################################
+#####################################################################
+This is a dossier file.
+#####################################################################
+#####################################################################
+#####################################################################
+-->
+
+
+<!DOCTYPE html>
+<html xmlns:csi="http://www.massimocorner.com/libraries/csi/" lang="de" class="no-js" >
+<head>
+
+<!--
+############################################################################
+META information ###########################################################
+############################################################################
+-->
+
+<meta charset="utf-8">
+
+<!--Prevent pinch to zoom on iOS devices-->
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+
+<!--Allow saving as a web app on the home screen on iOS Devices (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<!--If the page is saved as a web app, the statusbar will be black-translucent (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<!--Prevent phone number detection on iOS devices-->
+<meta name="format-detection" content="telephone=no" />
+
+
+<!--Title. The content of the title is displayed on the loading screen on iOS devices-->
+<title>Projects</title>
+
+<!--
+############################################################################
+Stylesheets ################################################################
+############################################################################
+-->
+
+<!--Loading the main style sheet-->
+<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+
+<!--Loading the dossier specific css-->
+<link href="styles/dossiers/06.css" rel="stylesheet" type="text/css" />
+
+<!--
+############################################################################
+Javascripts ################################################################
+############################################################################
+-->
+
+<script src="js/Hyphenator.js" type="text/javascript"></script>
+<script src="js/jquery-1.5.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/tmt_core.js"></script>
+<script type="text/javascript" src="js/tmt_net.js"></script>
+<script type="text/javascript" src="js/tmt_csi.js"></script>
+
+<!--Card Flip Effect-->
+<script type="text/javascript" src="js/jquery-css-transform.js"></script>
+<script type="text/javascript" src="js/rotate3Di.js"></script>
+
+<!--Audio Player-->
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+
+
+	<link rel="stylesheet" href="styles/demo.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="js/flexslider.css" type="text/css" media="screen" />
+
+	<!-- Modernizr -->
+  <script src="js/modernizr.js"></script>
+
+<!--Mandatory JavaScripts (Uncomment if not used to speed up performance)
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+<script src="js/jquery.touchSwipe-1.2.1.js" type="text/javascript"></script>
+-->
+
+<style>
+	
+#container {
+    border-top: none;
+    margin-top: 150px;
+    padding: 0 !important;
+    width: 753px !important;
+}
+
+#main {
+    margin-top: 0 !important;
+    overflow: hidden;
+    width: auto !important;
+}
+
+
+.projectHeadline {
+    background: none repeat scroll 0 0 white;
+    border-radius: 15px 15px 0 0;
+    padding: 20px;
+}
+.projectHeadline img {
+    margin-right: 10px;
+}
+
+.projectHeadline p {
+    color: #606060;
+    font-size: 17px;
+}
+
+
+.projectsummary {
+    float: left;
+    width: 300px;
+}
+
+
+.projectsummary h2 {
+    color: #8EC920;
+    font-family: tahoma;
+    font-size: 19px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.projectsummary img {
+    margin-right: 10px;
+}
+
+
+.projectsummary p {
+    color: #8E8E8E;
+    margin: 10px;
+}
+
+
+.projectsummary span {
+    color: #3C3C3C;
+}
+
+
+
+.projectDescription {
+    background: none repeat scroll 0 0 #8EC920;
+    border-radius: 23px 23px 23px 23px;
+    color: white;
+    float: right;
+    margin-top: 25px;
+    padding: 25px;
+    width: 310px;
+}
+
+.projectDescription p {
+    color: white;
+}
+
+
+.flex-direction-nav .flex-prev {
+	background:url('images/direction_nav_prev.png') 0 0 no-repeat;
+}
+
+.flex-direction-nav .flex-next {
+	background:url('images/direction_nav_next.png') 0 0 no-repeat;
+}
+
+
+</style>
+
+
+</head>
+
+<body>
+
+
+
+<!--
+############################################################################
+"Table of content" in navigation bar #######################################
+############################################################################
+-->
+
+<div class="nav-bar">
+	<div class="nav-bar-container">
+		
+        <a href="#Inhaltsverzeichnis" class="nav-button toc"><div class="toc-label">Inhaltsverzeichnis</div>
+		
+        <div class="toc-list">
+			<!--Include "Table of content" from external file-->
+			<div id="includeTOC" csi:src="inc/toc.html"></div>
+		</div><!--Div toc-list-->
+		</a>
+        
+	</div><!--Div nav-bar-container-->
+</div><!--Div nav-bar-->
+<div class="demo2_logo">
+	<a href="index.html"><img src="images/renascent_logo.jpg"></a>
+</div>
+<div class="text_logo">
+
+</div>
+
+<!--
+############################################################################
+End "Table of content" in navigation bar ###################################
+############################################################################
+-->
+
+
+<!--
+############################################################################
+Start dossier navigation in navigation bar #################################
+############################################################################
+-->
+
+<!--Include the small logo and the cover link-->
+<!--/*<div id="includeLogoAndCoverlink" csi:src="inc/logo-coverlink.html"></div>*/-->
+
+<!--Link to the next dossier-->
+<a href="Interactivity.html" class="nav-button next">
+	<div class="nav-button-text">Next Dossier</div>
+</a>
+
+<!--Link to the previous dossier. It's the first page, so we don't need that one.
+<a href="001.html" class="nav-button prev">
+	<div class="nav-button-text">Previous Dossier</div>
+</a>-->
+
+<!--Implementing the Dossier-Number-->
+<div id="dossier-number" class="dossier-number"><p>01</p></div>
+
+<!--Navigation bar edges-->
+<div class="edge-left"></div>
+<div class="edge-right"></div>
+
+<!--
+############################################################################
+End dossier navigation in navigation bar ###################################
+############################################################################
+-->
+
+<!--Enable text hyphenation with Hyphenator.js-->
+<div class="hyphenate">
+
+
+<!--
+############################################################################
+Start content ##############################################################
+############################################################################
+-->
+
+
+<!--Dossier start image-->
+
+
+<!--"content-element" ensures, that content is placed within the right margins-->
+
+<!--Main content-->
+
+<!--"content-element" ensures, that content is placed within the right margins-->
+<!--Div content-element-->
+
+<!--
+############################################################################
+ImageSlideshow #############################################################
+############################################################################
+-->
+<div class="content-element">
+<div class="large-column float-left">
+<div id="container" class="cf">
+    
+	<div class="projectHeadline">
+    	<p><img src="images/crossSign.jpg">QBE Australia</p>
+    </div>
+	<div id="main" role="main">
+      <section class="slider">
+        <div id="slider" class="flexslider">
+          <ul class="slides">
+            <li>
+  	    	    <img src="images/256366.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/256367.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/256366.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/256367.jpg" />
+  	    		</li>
+            <li>
+  	    	    <img src="images/256366.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/256367.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/256366.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/256367.jpg" />
+  	    		</li>
+            <li>
+  	    	    <img src="images/256366.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/256367.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/256366.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/256367.jpg" />
+  	    		</li>
+          </ul>
+        </div>
+                  
+        
+        
+          
+          <div class="moreslidertext">
+				<div class="projectsummary">
+                	<h2><img src="images/icon.jpg">Project Summary</h2>
+                    <p>Project <br><span>QBE Levels 1, 2, 3, 4, 5 & 6</span></p>
+                    <p>Location<br><span>628 Bourke Street, Melbourne</span></p>
+                    <p>Value<br><span>$8,500,000</span></p>
+                </div>
+                <div class="projectDescription">
+                	<p>Construction management delivery of 4 separate projects for QBE Australia within the 628 Bourke Street building  including:<br>
+                        3,800m2 on Levels 4 & 5<br>
+                        1,100m2 on Level 1<br>
+                        1,500m2 on Level 3<br>
+                        4,000m2 over Levels 2 & 6<br>
+                        Works included strip out and base
+building services upgrade.</p>
+                </div>
+          </div>
+      </section>
+      
+    </div>
+  
+  </div>
+  
+  <div id="container" class="cf">
+    
+	<div class="projectHeadline">
+    	<p><img src="images/crossSign.jpg">QBE Australia and Investa</p>
+    </div>
+	<div id="main" role="main">
+      <section class="slider">
+        <div id="slider" class="flexslider">
+          <ul class="slides">
+            <li>
+  	    	    <img src="images/Investa1.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/Investa1.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/Investa1.jpg" />
+  	    		</li>
+  	    	
+          </ul>
+        </div>
+          
+          <div class="moreslidertext">
+				<div class="projectsummary">
+                	<h2><img src="images/icon.jpg">Project Summary</h2>
+                    <p>Project <br><span>QBE Fitout & Base Building Upgrade</span></p>
+                    <p>Location<br><span>628 Bourke Street, Melbourne</span></p>
+                    <p>Value<br><span>$12,580,000</span></p>
+                </div>
+                <div class="projectDescription">
+                	<p>Delivery of staged projects within the 628 Bourke Street building including  the fitout and churn of QBE’s tenancy of 10,800m2 within the building together 
+with the strip out and base building make good including upgrades to lighting controls, Low e light fittings, upgraded switchboards and full amenity and core lobby upgrades.</p>
+                </div>
+          </div>
+      </section>
+      
+    </div>
+  
+  </div>
+  
+  
+<div id="container" class="cf">
+    
+	<div class="projectHeadline">
+    	<p><img src="images/crossSign.jpg">Facebook</p>
+    </div>
+	<div id="main" role="main">
+      <section class="slider">
+        <div id="slider" class="flexslider">
+          <ul class="slides">
+            <li>
+  	    	    <img src="images/Facebook1.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/Facebook2.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/Facebook1.jpg" />
+  	    		</li>
+  	    	
+          </ul>
+        </div>
+           
+          <div class="moreslidertext">
+				<div class="projectsummary">
+                	<h2><img src="images/icon.jpg">Project Summary</h2>
+                    <p>Project <br><span>Facebook Sydney</span></p>
+                    <p>Location<br><span>Level 18, 77 King Street</span></p>
+                    <p>Value<br><span>$1,500,000</span></p>
+                </div>
+                <div class="projectDescription">
+                	<p>High end fitout using unique design and build techniques and incorporating the double ceiling height space.
+</p>
+                </div>
+          </div>
+      </section>
+      
+    </div>
+  
+  </div>  
+  
+  
+	<div id="container" class="cf">
+    
+	<div class="projectHeadline">
+    	<p><img src="images/crossSign.jpg">Channel 9</p>
+    </div>
+	<div id="main" role="main">
+      <section class="slider">
+        <div id="slider" class="flexslider">
+          <ul class="slides">
+            <li>
+  	    	    <img src="images/Channel9_1.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/Channel9_2.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/Channel9_3.jpg" />
+  	    		</li>
+  	    	
+          </ul>
+        </div>
+           
+          <div class="moreslidertext">
+				<div class="projectsummary">
+                	<h2><img src="images/icon.jpg">Project Summary</h2>
+                    <p>Project <br><span>Channel 9 Refurbishment</span></p>
+                    <p>Location<br><span>29 Artarmon Road, Willoughby</span></p>
+                    <p>Value<br><span>$8,000,000</span></p>
+                </div>
+                <div class="projectDescription">
+                	<p>Renascent were appointed as head- contractor to deliver "Project Refresh" a 6000 m2 facility and services upgrade for 9 Entertainment.This project was carried out over 14 months in total, consisting 5 separate projects, each with their unique site and time challenges. Being a live operational TV station, the planning, services, co-ordination and stakeholder management was enormous. Renascent met every challenge presented, in some instances working around the clock to ensure minimal impact on the station operation. As part of the complex staging, a section of the second floor spandrel was removed and temporary stairs installed, which allowed major part of the upgrade to be carried out which included substantial demolition, upgrading of all base building services along with new edit suites, toilet upgrades and the construction of new Gateway news studio.
+</p>
+                </div>
+          </div>
+      </section>
+      
+    </div>
+  
+  </div>
+  
+	<div id="container" class="cf">
+    
+	<div class="projectHeadline">
+    	<p><img src="images/crossSign.jpg">Johnson, Winter & Slattery</p>
+    </div>
+	<div id="main" role="main">
+      <section class="slider">
+        <div id="slider" class="flexslider">
+          <ul class="slides">
+            <li>
+  	    	    <img src="images/Johnson1.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/Johnson2.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/Johnson3.jpg" />
+  	    		</li>
+            <li>
+  	    	    <img src="images/Johnson4.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/Johnson5.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/Johnson6.jpg" />
+  	    		</li>  	    	
+          </ul>
+        </div>
+           
+          <div class="moreslidertext">
+				<div class="projectsummary">
+                	<h2><img src="images/icon.jpg">Project Summary</h2>
+                    <p>Project <br><span>Johnson, Winter & Slattery</span></p>
+                    <p>Location<br><span>Levels 24 & 25, 20 Bond Street</span></p>
+                    <p>Value<br><span>$4,800,000</span></p>
+                </div>
+                <div class="projectDescription">
+                	<p>High end fitout with boutique hotel style reception for National Legal Firm, light filled back of house work areas + interconnecting staircase.
+</p>
+                </div>
+          </div>
+      </section>
+      
+    </div>
+  
+  </div>    
+    
+    </div>
+<!--Initiating the slideshow by calling the JS-->
+<script src="js/imgscroll.js" type="text/javascript"></script>
+
+
+
+  <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+  
+  <!-- FlexSlider -->
+  <script defer src="js/jquery.flexslider.js"></script>
+  
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+
+      
+      $('#slider').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: false,
+        slideshow: false,
+        sync: "#carousel",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+
+  <!-- Syntax Highlighter -->
+  <script type="text/javascript" src="js/shCore.js"></script>
+  <script type="text/javascript" src="js/shBrushXml.js"></script>
+  <script type="text/javascript" src="js/shBrushJScript.js"></script>
+  
+  <!-- Optional FlexSlider Additions -->
+  <script src="js/jquery.easing.js"></script>
+  <script src="js/jquery.mousewheel.js"></script>
+  <script defer src="js/demo.js"></script>
+<!--
+############################################################################
+ImageSlideshow End #########################################################
+############################################################################
+-->
+
+
+  <!--
+############################################################################
+End of content #############################################################
+############################################################################
+-->
+  </div>
+  
+
+</div><!--Div hyphenate-->
+
+  
+  
+  <!--
+############################################################################
+Start Footer ###############################################################
+############################################################################
+-->
+  
+
+<!--Include footer data from inc/footer.html-->
+
+<!--
+############################################################################
+End Footer #################################################################
+############################################################################
+-->
+
+
+</body>
+</html>

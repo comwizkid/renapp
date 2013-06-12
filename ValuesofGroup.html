@@ -1,0 +1,598 @@
+<!--
+#####################################################################
+LAKER Version 1.2 – http://www.lakercompendium.com
+#####################################################################
+#####################################################################
+This is a dossier file.
+#####################################################################
+####################		#################################################
+#####################################################################
+-->
+
+
+<!DOCTYPE html>
+<html xmlns:csi="http://www.massimocorner.com/libraries/csi/" lang="de">
+<head>
+
+<!--
+############################################################################
+META information ###########################################################
+############################################################################
+-->
+
+<meta charset="utf-8">
+
+<!--Prevent pinch to zoom on iOS devices-->
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+
+<!--Allow saving as a web app on the home screen on iOS Devices (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<!--If the page is saved as a web app, the statusbar will be black-translucent (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<!--Prevent phone number detection on iOS devices-->
+<meta name="format-detection" content="telephone=no" />
+
+
+<!--Title. The content of the title is displayed on the loading screen on iOS devices-->
+<title>Values of Group</title>
+
+<!--
+############################################################################
+Stylesheets ################################################################
+############################################################################
+-->
+
+<!--Loading the main style sheet-->
+<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+
+<!--Loading the dossier specific css-->
+<link href="styles/dossiers/03.css" rel="stylesheet" type="text/css" />
+
+<!--
+############################################################################
+Javascripts ################################################################
+############################################################################
+-->
+
+<script src="js/Hyphenator.js" type="text/javascript"></script>
+<script src="js/jquery-1.5.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/tmt_core.js"></script>
+<script type="text/javascript" src="js/tmt_net.js"></script>
+<script type="text/javascript" src="js/tmt_csi.js"></script>
+<script src="js/jquery.touchSwipe-1.2.1.js" type="text/javascript"></script>
+
+<!--Mandatory JavaScripts (Uncomment if not used to speed up performance)
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+-->
+
+    <link rel="stylesheet" href="styles/tabStyle.css" />
+    <script src="js/jquery-1.8.2.js"></script>
+    <script src="js/jquery-ui.js"></script>
+
+    <script>
+    $(function() {
+        $( "#tabs" ).tabs();
+    });
+    </script>
+
+<style>
+
+body {
+    background: url("images/newBodybGTest.jpg") repeat-x scroll 0 0 #F1F1F1 !important;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.content-element {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 2px 7px rgba(50, 50, 50, 0.83);
+    margin-bottom: 0;
+    margin-left: 73px;
+    margin-right: 52px;
+    overflow: hidden;
+    width: 850px !important;
+}
+
+
+.large-column {
+    padding: 0 40px;
+    width: 770px;
+}
+
+.demo2_logo {
+    float: left;
+    height: 63px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.text_logo {
+    background: none repeat scroll 0 0 #99CE35;
+    float: right;
+    height: 83px;
+    margin-right: 27px;
+    margin-top: 0;
+    width: 262px;
+}
+
+.text_logo > h1 {
+    color: #FFFFFF;
+    font-family: verdana;
+    font-size: 25px;
+    padding: 26px;
+    text-transform: uppercase;
+}
+
+.renascentStoryCont {
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 760px;
+}
+
+.ui-tabs {
+    padding: 0.2em 0.2em 4em;
+    position: relative;
+}
+	
+	li {
+		display:inline;
+		list-style:none;		
+	}
+
+.ui-tabs .ui-tabs-nav {
+    left: 7px;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    position: relative;
+    width: 695px !important;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    margin-left: -15px;
+    outline: medium none !important;
+    width: 29px !important;
+	padding: 0px 8px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background:none 	!important;
+	border:none !important;	
+	outline:none !important;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	background:none 	!important;
+	border:none !important;
+	outline:none !important;		
+}
+
+.ui-tabs .ui-tabs-nav li a {
+	padding:.5em 0em !important;
+	width:115px !important;	
+}
+
+.ui-tabs .ui-tabs-panel {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+	height:200px !important;
+}
+
+:focus {
+	outline: none !important;
+}
+
+#tabs p {
+    color: #999999 !important;
+    line-height: 21px;
+    margin-bottom: 15px;
+    padding: 0 30px 0px !important;
+}
+
+#tabs > h1 {
+    color: #3C3C3C !important;
+    font-family: arial !important;
+    font-size: 69px !important;
+    text-align: center !important;
+    text-transform: uppercase;
+}
+
+.large-column.float-left h1 {
+	color: #BEBEBE;
+	font-family: arial;
+	font-size: 24px;
+	text-align: right;
+	margin-top: 30px;
+}
+
+.content-element h2 {
+    color: #9DCA38 !important;
+    font-family: arial;
+    font-size: 1.4em;
+    line-height: 1.1em;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+.divModalDialog  {
+	        position:absolute;
+		    top:0;
+		    left:0;
+		    width:100%;
+		    height:100%;
+		    /*! important !*/
+		    display:none;
+		    /* last attribute set darkness on scale: 0...1.0 */
+		    background:transparent;
+		    text-align:center;
+		    z-index:101;
+	    }
+	    
+	    /*** ! target attribute does the job ! ***/
+	    .divModalDialog:target  { display:block; }
+        
+        /*** virtual frame containing controls, image and caption ***/
+	    .divModalDialog div  {
+	       /* either absolute or fixed */
+		    position:fixed;
+		    top:5%;
+		    width:100%;
+
+            /* rounded corners */
+	        border-radius: none;
+            z-index:102;
+	    }
+	    
+        /*** header used as main image caption  ***/
+        .divModalDialog div h1  {
+            width:100%;
+            font-size:2em;
+            color:#dadada;
+            z-index:103;
+            /* add shadows to text */
+            -moz-text-shadow: 10px 3px 4px 6px rgba(0,0,0,0.9);  
+            -webkit-text-shadow: 3px 4px 6px rgba(0,0,0,0.9);  
+            text-shadow: 10px 4px 6px rgba(0,0,0,0.9); 
+        }	    
+ 
+        /*** main image style ***/
+        .divModalDialog img {
+            padding:20px;
+            z-index:105;
+            border: solid 1px gray;
+            /* rounded corners */
+        	-moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+            background:#fff        } 
+ 
+        /*** navigation controls style: highest z-index ! ***/
+.divModalDialog ul a {
+    border: medium none;
+    color: Yellow;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+    z-index: 110;
+}
+ 
+        /*** div serves as thumbnais container  ***/
+ #divThumbnails {
+position: relative;
+top: 50px;
+}
+ 
+	    /*** thumbnails image style ***/
+        #divThumbnails img {
+            padding:10px;
+            height:266px;
+            max-width:300px;
+            border: solid 1px gray;
+            /* rounded corners */
+        	-moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+            /* add shadows */
+            -moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+            -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.5);        
+            z-index:1;
+        } 
+ 
+        /*** hover effects increase visual responsiveness ***/
+        #divThumbnails img:hover, .divModalDialog ul a:hover
+        {
+            background:none }
+ 
+        /*** fancy text effect: 180 degree ***/
+	    #divUpsideDown  {
+	        position: relative; 
+	        margin-top:5%;
+	        width:100%;
+		}
+
+
+#popupTextContainer {
+
+    border-radius: 6px 6px 6px 6px;
+    left: 15%;
+    position: absolute;
+    top: 67%;
+    width: 43%;
+}
+
+#popupTextContainer .popupText {
+    border: medium none !important;
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 11px !important;
+    position: relative !important;
+    width: 330px !important;	
+}
+
+#popupTextContainer ul {
+    margin: 0;
+    position: absolute;
+    right: -8px;
+    top: -10px;
+    z-index: 9999;
+}
+
+#popupTextContainer li {
+    list-style: none outside none;
+}
+#popupTextContainer ul li img {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    padding: 0;
+}
+
+
+
+#popupTextContainer .popupText > p {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+}
+
+.ui-widget-content a {
+    color: #999999 !important;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!--
+############################################################################
+"Table of content" in navigation bar #######################################
+############################################################################
+-->
+
+<div class="nav-bar">
+	<div class="nav-bar-container">
+		
+        <a href="#Inhaltsverzeichnis" class="nav-button toc"><div class="toc-label">Inhaltsverzeichnis</div>
+		
+        <div class="toc-list">
+			<!--Include "Table of content" from external file-->
+			<div id="includeTOC" csi:src="inc/toc.html"></div>
+		</div><!--Div toc-list-->
+		</a>
+        
+	</div><!--Div nav-bar-container-->
+</div><!--Div nav-bar-->
+
+<!--
+############################################################################
+End "Table of content" in navigation bar ###################################
+############################################################################
+-->
+
+
+<div class="demo2_logo">
+	<a href="index.html"><img src="images/newtestLogo.jpg"></a>
+</div>
+
+<div class="text_logo">
+	<h1>Values</h1>
+</div>
+<div style="clear: both;margin-bottom: 1px; overflow: auto;">
+</div>
+<!--
+############################################################################
+Start dossier navigation in navigation bar #################################
+############################################################################
+-->
+
+<!--Include the small logo and the cover link-->
+
+
+<!--Link to the next dossier-->
+<a href="Interactivity.html" class="nav-button next">
+	<div class="nav-button-text">Next Dossier</div>
+</a>
+
+<!--Link to the previous dossier. It's the first page, so we don't need that one.
+<a href="001.html" class="nav-button prev">
+	<div class="nav-button-text">Previous Dossier</div>
+</a>-->
+
+<!--Implementing the Dossier-Number-->
+<div id="dossier-number" class="dossier-number"><p>01</p></div>
+
+<!--Navigation bar edges-->
+<div class="edge-left"></div>
+<div class="edge-right"></div>
+
+<!--
+############################################################################
+End dossier navigation in navigation bar ###################################
+############################################################################
+-->
+
+<!--Enable text hyphenation with Hyphenator.js-->
+<div class="hyphenate">
+
+
+<!--
+############################################################################
+Start content ##############################################################
+############################################################################
+-->
+
+
+<!--Dossier start image-->
+
+
+<!--Arrow which indicates the start of the text-->
+
+
+<!--"content-element" ensures, that content is placed within the right margins-->
+<div class="content-element">
+    <div class="large-column float-left">
+		<h1>Renascent has <strong>4 main core values</strong> <br> that underpin all that we do as an organisation:</h1>
+       
+       
+       <div id="tabs">
+       <h1>Renascent</h1>
+            <center><ul>
+          
+              <li style="padding:0px;"><a href="#tabs-0"></a></li>
+         
+              <li><a href="#tabs-1"><img src="images/c.gif"></a></li>
+              <li><a href="#tabs-2"><img src="images/a.gif"></a></li>
+              <li><a href="#tabs-3"><img src="images/r.gif"></a></li>
+              <li><a href="#tabs-4"><img src="images/e.gif"></a></li>                                                
+            
+            </ul>
+            </center>
+        <div id="tabs-0">
+			<div class="popupimage">
+
+                
+            </div>
+    
+        </div>            
+            
+        <div id="tabs-1">
+			<div class="popupimage">
+				<h2>Col­la­bo­ra­ti­ve</h2>
+				<p>We pro­vi­de the hig­hest level of com­mu­ni­ca­ti­on throughout our pro­ject teams.</p>
+                <p>We part­ner with cli­ents to solve their needs.</p>
+                
+            </div>
+    
+        </div>
+        <div id="tabs-2">
+            <div class="popupimage">
+                            <h2>Ac­coun­ta­ble</h2>
+                            <p>We are ac­coun­ta­ble to our cust­o­m­ers and are de­pen­da­ble in de­li­ver­ing a qua­li­ty pro­duct.</p>
+                            <p>We pro­vi­de a safe work place and ac­coun­ta­ble for our ac­tions and staff.
+            </p>
+                            
+            </div>
+        </div>
+        <div id="tabs-3">
+			<div class="popupimage">
+				<h2>Re­spect­ful </h2>
+				<p>We treat our cust­o­m­ers, pro­ject sta­ke­hol­ders and sub-contrac­tors fair­ly.</p>
+                <p>We pro­vi­de ho­nest ad­vice and gui­dance.</p>
+                <p>And we act as a re­s­pon­si­ble com­mu­ni­ty mem­ber.</p>
+                
+            </div>
+        </div>
+        
+        <div id="tabs-4">
+			<div class="popupimage">
+				<h2>Ex­cel­lence </h2>
+				<p>Our busi­ness is foun­ded on re­peat and sa­tis­fied cli­ents.</p>
+                <p>We ex­ceed cli­ents' ex­pec­ta­ti­ons in every in­stan­ce.  </p>
+                <p>We con­ti­nu­al­ly stri­ve to im­pro­ve our busi­ness.</p>
+                
+            </div>
+        </div>
+        <p>Overall, Renascent is an organisation that CAREʼs - we care for our customers, we care for our staff; <a href="#divModalDialogText">care for our community</a>. We are an organisation that delivers quality building outcomes that not only are second to none; but ones to which we are proud.</p>
+   
+	</div>
+       
+       
+    <div id="divModalDialogText" class="divModalDialog">
+            <div id="popupTextContainer">
+                <ul>
+                    <li><a href="#"><img src="images/close-button.png"></a></li>                      <!--CLOSE SYMBOL-->
+                </ul>        
+                <div class="popupText">
+                    <img src="images/careimage.jpg">
+                </div>
+            </div>
+    </div>      
+       
+    </div>
+</div><!--Div content element-->
+
+
+
+
+<!--Main content-->
+
+<!--"content-element" ensures, that content is placed within the right margins-->
+<!--Div content-element-->
+
+<!--
+############################################################################
+ImageSlideshow #############################################################
+############################################################################
+-->
+
+<!--Div imgscroll-content-->
+
+<!--Initiating the slideshow by calling the JS-->
+<script src="js/imgscroll.js" type="text/javascript"></script>
+
+<!--
+############################################################################
+ImageSlideshow End #########################################################
+############################################################################
+-->
+
+
+  <!--
+############################################################################
+End of content #############################################################
+############################################################################
+-->
+  
+  
+
+</div><!--Div hyphenate-->
+
+  
+  
+  <!--
+############################################################################
+Start Footer ###############################################################
+############################################################################
+-->
+  
+
+<!--Include footer data from inc/footer.html-->
+<div class="footer">
+  <div id="includeFooter" csi:src="inc/footer.html"></div>
+</div><!--Div footer-->
+
+<!--
+############################################################################
+End Footer #################################################################
+############################################################################
+-->
+
+</body>
+</html>

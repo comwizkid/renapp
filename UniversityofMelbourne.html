@@ -1,0 +1,414 @@
+<!--
+#####################################################################
+LAKER Version 1.2 – http://www.lakercompendium.com
+#####################################################################
+#####################################################################
+This is a dossier file.
+#####################################################################
+#####################################################################
+#####################################################################
+-->
+
+
+<!DOCTYPE html>
+<html xmlns:csi="http://www.massimocorner.com/libraries/csi/" lang="de" class="no-js" >
+<head>
+
+<!--
+############################################################################
+META information ###########################################################
+############################################################################
+-->
+
+<meta charset="utf-8">
+
+<!--Prevent pinch to zoom on iOS devices-->
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+
+<!--Allow saving as a web app on the home screen on iOS Devices (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<!--If the page is saved as a web app, the statusbar will be black-translucent (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<!--Prevent phone number detection on iOS devices-->
+<meta name="format-detection" content="telephone=no" />
+
+
+<!--Title. The content of the title is displayed on the loading screen on iOS devices-->
+<title>Projects - University of Melbourne</title>
+
+<!--
+############################################################################
+Stylesheets ################################################################
+############################################################################
+-->
+
+<!--Loading the main style sheet-->
+<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+
+<!--Loading the dossier specific css-->
+<link href="styles/dossiers/06.css" rel="stylesheet" type="text/css" />
+<link href="styles/dossiers/newStyling.css" rel="stylesheet" type="text/css" />
+<!--
+############################################################################
+Javascripts ################################################################
+############################################################################
+-->
+
+<script src="js/Hyphenator.js" type="text/javascript"></script>
+<script src="js/jquery-1.5.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/tmt_core.js"></script>
+<script type="text/javascript" src="js/tmt_net.js"></script>
+<script type="text/javascript" src="js/tmt_csi.js"></script>
+
+<!--Card Flip Effect-->
+<script type="text/javascript" src="js/jquery-css-transform.js"></script>
+<script type="text/javascript" src="js/rotate3Di.js"></script>
+
+<!--Audio Player-->
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+
+
+	<link rel="stylesheet" href="styles/demo.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="js/flexslider.css" type="text/css" media="screen" />
+
+	<!-- Modernizr -->
+  <script src="js/modernizr.js"></script>
+
+<!--Mandatory JavaScripts (Uncomment if not used to speed up performance)
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+<script src="js/jquery.touchSwipe-1.2.1.js" type="text/javascript"></script>
+-->
+
+<style>
+.large-column {
+    width: 850px !important;
+}	
+	
+#container {
+    border-top: medium none;
+    width: 835px !important;
+}
+
+
+#slider {
+    height:auto;
+}
+
+#main {
+    margin-top: 0 !important;
+    overflow: hidden;
+    width: auto !important;
+}
+ 
+
+.projectHeadline {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #98BC3C;
+    margin: 20px;
+    overflow: auto;
+    padding: 12px 25px;
+}
+
+
+.projectHeadline > p {
+    color: #96CD2F;
+    float: left;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+.projectHeadline > img {
+    float: right;
+}
+
+.flex-direction-nav .flex-prev {
+	background:url('images/direction_nav_prev.png') 0 0 no-repeat;
+}
+
+.flex-direction-nav .flex-next {
+	background:url('images/direction_nav_next.png') 0 0 no-repeat;
+}
+
+
+
+
+.projectDesc {
+    background: url("images/descriptionContainer.jpg") no-repeat scroll 0 0 transparent;
+    height: 78px;
+    margin-bottom: 30px;
+    margin-left: 21px;
+    padding: 27px 25px;
+    width: 745px;
+}
+
+.projectDesc > p {
+    color: #FFFFFF;
+	float:left;
+}
+
+
+.projectDesc > img {
+    float: right;
+    margin-top: 12px;
+}
+
+.longDesc {
+    margin-bottom: 50px;
+    padding: 0 50px;
+}
+
+
+.longDesc h2 {
+    color: #99CE35;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+.longDesc > p {
+    color: #3C3C3C;
+    margin-bottom: 18px;
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+
+
+<!--
+############################################################################
+"Table of content" in navigation bar #######################################
+############################################################################
+-->
+
+<div class="nav-bar">
+	<div class="nav-bar-container">
+		
+        <a href="#Inhaltsverzeichnis" class="nav-button toc"><div class="toc-label">Inhaltsverzeichnis</div>
+		
+        <div class="toc-list">
+			<!--Include "Table of content" from external file-->
+			<div id="includeTOC" csi:src="inc/toc.html"></div>
+		</div><!--Div toc-list-->
+		</a>
+        
+	</div><!--Div nav-bar-container-->
+</div><!--Div nav-bar-->
+<div class="demo2_logo">
+	<a href="index.html"><img src="images/newtestLogo.jpg"></a>
+</div>
+<div class="toprightBack">
+	<a href="ProjectList.html"><img src="images/circle-green-arrow-back.gif"></a>
+</div>
+<div style="clear: both;margin-bottom: 2px; overflow: auto;">
+</div>
+
+<!--
+############################################################################
+End "Table of content" in navigation bar ###################################
+############################################################################
+-->
+
+
+<!--
+############################################################################
+Start dossier navigation in navigation bar #################################
+############################################################################
+-->
+
+<!--Include the small logo and the cover link-->
+<!--/*<div id="includeLogoAndCoverlink" csi:src="inc/logo-coverlink.html"></div>*/-->
+
+<!--Link to the next dossier-->
+<a href="Interactivity.html" class="nav-button next">
+	<div class="nav-button-text">Next Dossier</div>
+</a>
+
+<!--Link to the previous dossier. It's the first page, so we don't need that one.
+<a href="001.html" class="nav-button prev">
+	<div class="nav-button-text">Previous Dossier</div>
+</a>-->
+
+<!--Implementing the Dossier-Number-->
+<div id="dossier-number" class="dossier-number"><p>01</p></div>
+
+<!--Navigation bar edges-->
+<div class="edge-left"></div>
+<div class="edge-right"></div>
+
+<!--
+############################################################################
+End dossier navigation in navigation bar ###################################
+############################################################################
+-->
+
+<!--Enable text hyphenation with Hyphenator.js-->
+<div class="hyphenate">
+
+
+<!--
+############################################################################
+Start content ##############################################################
+############################################################################
+-->
+
+
+<!--Dossier start image-->
+
+
+<!--"content-element" ensures, that content is placed within the right margins-->
+
+<!--Main content-->
+
+<!--"content-element" ensures, that content is placed within the right margins-->
+<!--Div content-element-->
+
+<!--
+############################################################################
+ImageSlideshow #############################################################
+############################################################################
+-->
+<div class="content-element">
+<div class="large-column float-left">
+
+
+	<div id="main" role="main">
+      <section class="slider">
+            <div id="slider" class="flexslider">
+              <ul class="slides">
+                <li>
+                    <img src="images/temporary_image1.jpg" />
+                    </li>
+                    <li>
+                    <img src="images/temporary_image2.jpg" />
+                    </li>
+              </ul>
+            </div>
+		</section>
+    </div>
+    
+	<div class="projectHeadline">
+    	<p>UNIVERSITY OF MELBOURNE - OPTOMOLOGY DEPARTMENT</p>
+        <img src="images/renascentIcon.jpg">
+    </div>    
+    
+	<div class="projectDesc">
+<!--<p>PROJECT DESCRIPTION:&nbsp;&nbsp;&nbsp;&nbsp;Refurbishment of Dept. Optomology
+<br>
+LOCATION:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alice Hoy Building, 631 Swanston St
+<br>
+VALUE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$ 4,100,000
+</p>-->
+
+	<ul>
+    	<li><span>PROJECT DESCRIPTION:</span>Refurbishment of Dept. Optomology</li>
+        <li><span>LOCATION:</span>Alice Hoy Building, 631 Swanston St</li>
+        <li><span>VALUE</span>$4,100,000</li>
+    </ul>
+	</div>  
+
+	<!--<div class="longDesc">
+    	<h2>Description</h2>
+        <p>Renascent were appointed as head- contractor to deliver "Project Refresh" a 6000 m2 facility and 
+services upgrade for 9 Entertainment.This project was carried out over 14 months in total, consisting 5 
+separate projects, each with their unique site and time challenges. Being a live operational TV station, 
+the planning, services, co-ordination and stakeholder management was enormous. Renascent met every 
+challenge presented, in some instances working around the clock to ensure minimal impact on the station 
+operation. </p>
+
+<p>As part of the complex staging, a section of the second floor spandrel was removed and 
+temporary stairs installed, which allowed major part of the upgrade to be carried out which included 
+substantial demolition, upgrading of all base building services along with new edit suites, toilet upgrades 
+and the construction of new Gateway news studio.</p>
+    </div>-->
+    
+    </div>
+<!--Initiating the slideshow by calling the JS-->
+<script src="js/imgscroll.js" type="text/javascript"></script>
+
+
+
+  <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+  
+  <!-- FlexSlider -->
+  <script defer src="js/jquery.flexslider.js"></script>
+  
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+
+      
+      $('#slider').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: false,
+        slideshow: false,
+        sync: "#carousel",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+
+  <!-- Syntax Highlighter -->
+  <script type="text/javascript" src="js/shCore.js"></script>
+  <script type="text/javascript" src="js/shBrushXml.js"></script>
+  <script type="text/javascript" src="js/shBrushJScript.js"></script>
+  
+  <!-- Optional FlexSlider Additions -->
+  <script src="js/jquery.easing.js"></script>
+  <script src="js/jquery.mousewheel.js"></script>
+  <script defer src="js/demo.js"></script>
+<!--
+############################################################################
+ImageSlideshow End #########################################################
+############################################################################
+-->
+
+
+  <!--
+############################################################################
+End of content #############################################################
+############################################################################
+-->
+  </div>
+  
+
+</div><!--Div hyphenate-->
+
+  
+  
+  <!--
+############################################################################
+Start Footer ###############################################################
+############################################################################
+-->
+  
+
+<!--Include footer data from inc/footer.html-->
+
+<!--
+############################################################################
+End Footer #################################################################
+############################################################################
+-->
+
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+    "hpub": 1,
+    "title": "Renascent",
+    "author": ["PABA Media"],
+    "creator": ["PABA Media"],
+    "date": "2011-12-27",
+    "url": "book://lakercompendium.com/book/",
+
+    "orientation": "landscape",
+    "zoomable": false,
+
+    "-baker-background": "#fff",
+    "-baker-vertical-bounce": true,
+    "-baker-index-height": 200,
+    "-baker-media-autoplay": true,
+    "-baker-background-image-portrait": "images/background-portrait.png",
+    "-baker-background-image-landscape": "images/background-landscape.png",
+    "-baker-page-numbers-color": "#333",
+
+     "contents": [
+		"Renascent.html",
+        "RenascentStory.html",
+		"ValuesofGroup.html",
+		"StructureofGroup.html",
+        "Team.html",
+		"Services.html",
+		"Governance.html",
+        "Testimonial.html",
+        "ProjectList.html",
+		"ProjectCategories.html",
+		"Commercial.html",
+		"Hospitality.html",	
+		"EducationHealth.html",	
+		"Government.html",			
+		"teachershealth.html",
+		"gilberttobin.html",
+		"JohnsonWinter.html",
+		"calibre.html",
+		"QBEAustralia.html",
+		"vmia.html"
+     ]
+}

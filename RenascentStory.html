@@ -1,0 +1,318 @@
+<!--
+#####################################################################
+LAKER Version 1.2 – http://www.lakercompendium.com
+#####################################################################
+#####################################################################
+This is a dossier file.	
+#####################################################################
+#####################################################################
+#####################################################################
+-->
+
+
+<!DOCTYPE html>
+<html xmlns:csi="http://www.massimocorner.com/libraries/csi/" lang="de">
+<head>
+
+<!--
+############################################################################
+META information ###########################################################
+############################################################################
+-->
+
+<meta charset="utf-8">
+
+<!--Prevent pinch to zoom on iOS devices-->
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+
+<!--Allow saving as a web app on the home screen on iOS Devices (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<!--If the page is saved as a web app, the statusbar will be black-translucent (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<!--Prevent phone number detection on iOS devices-->
+<meta name="format-detection" content="telephone=no" />
+
+
+<!--Title. The content of the title is displayed on the loading screen on iOS devices-->
+<title>Renascent Story</title>
+
+<!--
+############################################################################
+Stylesheets ################################################################
+############################################################################
+-->
+
+<!--Loading the main style sheet-->
+<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+
+<!--Loading the dossier specific css-->
+<link href="styles/dossiers/03.css" rel="stylesheet" type="text/css" />
+
+<link href="styles/dossiers/newStyling.css" rel="stylesheet" type="text/css" />
+<!--
+############################################################################
+Javascripts ################################################################
+############################################################################
+-->
+
+<script src="js/Hyphenator.js" type="text/javascript"></script>
+<script src="js/jquery-1.5.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/tmt_core.js"></script>
+<script type="text/javascript" src="js/tmt_net.js"></script>
+<script type="text/javascript" src="js/tmt_csi.js"></script>
+<script src="js/jquery.touchSwipe-1.2.1.js" type="text/javascript"></script>
+
+<!--Mandatory JavaScripts (Uncomment if not used to speed up performance)
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+-->
+
+    <link rel="stylesheet" href="styles/tabStyle.css" />
+    <script src="js/jquery-1.8.2.js"></script>
+    <script src="js/jquery-ui.js"></script>
+
+    <script>
+    $(function() {
+        $( "#tabs" ).tabs();
+    });
+    </script>
+    
+<style>
+
+.renascentStoryCont {
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 760px;
+}
+	
+	li {
+		display:inline;
+		list-style:none;		
+	}
+
+
+.ui-tabs .ui-tabs-nav {
+    margin: 0 auto !important;
+    padding: 20px 0 0 !important;
+    width: 695px !important;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    width: 29px !important;
+	outline:none !important
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background:none 	!important;
+	border:none !important;	
+	outline:none !important;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	background:none 	!important;
+	border:none !important;
+	outline:none !important;		
+}
+
+.ui-tabs .ui-tabs-nav li a {
+	padding:.5em 0em !important;
+	width:115px !important;	
+}
+
+.ui-tabs .ui-tabs-panel {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+}
+
+:focus {
+	outline: none !important;
+}
+
+#tabs p {
+    color: #000000 !important;
+    padding: 0 30px 30px 30px !important;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!--
+############################################################################
+"Table of content" in navigation bar #######################################
+############################################################################
+-->
+
+<div class="nav-bar">
+	<div class="nav-bar-container">
+		
+        <a href="#Inhaltsverzeichnis" class="nav-button toc"><div class="toc-label">Inhaltsverzeichnis</div>
+		
+        <div class="toc-list">
+			<!--Include "Table of content" from external file-->
+			<div id="includeTOC" csi:src="inc/toc.html"></div>
+		</div><!--Div toc-list-->
+		</a>
+        
+	</div><!--Div nav-bar-container-->
+</div><!--Div nav-bar-->
+
+<!--
+############################################################################
+End "Table of content" in navigation bar ###################################
+############################################################################
+-->
+
+
+<div class="demo2_logo">
+	<a href="index.html"><img src="images/newtestLogo.jpg"></a>
+</div>
+
+<div class="text_logo">
+	<h1>Renascent Story</h1>
+</div>
+<div style="clear: both;margin-bottom: 2px; overflow: auto;">
+</div>
+<!--
+############################################################################
+Start dossier navigation in navigation bar #################################
+############################################################################
+-->
+
+<!--Include the small logo and the cover link-->
+
+
+<!--Link to the next dossier-->
+<a href="Interactivity.html" class="nav-button next">
+	<div class="nav-button-text">Next Dossier</div>
+</a>
+
+<!--Link to the previous dossier. It's the first page, so we don't need that one.
+<a href="001.html" class="nav-button prev">
+	<div class="nav-button-text">Previous Dossier</div>
+</a>-->
+
+<!--Implementing the Dossier-Number-->
+<div id="dossier-number" class="dossier-number"><p>01</p></div>
+
+<!--Navigation bar edges-->
+<div class="edge-left"></div>
+<div class="edge-right"></div>
+
+<!--
+############################################################################
+End dossier navigation in navigation bar ###################################
+############################################################################
+-->
+
+<!--Enable text hyphenation with Hyphenator.js-->
+<div class="hyphenate">
+
+
+<!--
+############################################################################
+Start content ##############################################################
+############################################################################
+-->
+
+
+<!--Dossier start image-->
+
+
+<!--Arrow which indicates the start of the text-->
+
+
+<!--"content-element" ensures, that content is placed within the right margins-->
+<div class="content-element">
+    <div class="large-column float-left">
+    
+    <div id="tabs">
+    <ul>
+         
+            	<li><img src="images/dashimage.jpg"></li>            
+            	<li><a href="#tabs-1"><img src="images/ren_icon_1995.png"></a></li>
+            	<li><img src="images/dashimage.jpg"></li>                 
+            	<li><a href="#tabs-2"><img src="images/ren_icon_chart.png"></a></li>
+            	<li><img src="images/dashimage.jpg"></li>                 
+            	<li><a href="#tabs-3"><img src="images/ren_icon_people.png"></a></li>
+            	<li><img src="images/dashimage.jpg"></li>                 
+            	<li><a href="#tabs-4"><img src="images/ren_icon_house.png"></a></li>                                                
+            	<li><img src="images/dashimage.jpg"></li>              
+    </ul>
+    <div id="tabs-1">
+       <p>Renascent was established in 1995 by Andrew Melville and Tony Hargreaves. The <br>Melbourne office was established in 2000. Clients are serviced nationally from these <br> offices.</p>
+
+    </div>
+    <div id="tabs-2">
+   <p>Since inception, under the guidance of Tony and Andrew, the business has experienced controlled and steady growth resulting in revenues in excess of $100m for the 2012/2013 <br>financial year. The company has strong financial credentials founded on 17 years of strong profitability, significant cash reserves and no debt.</p>
+    </div>
+    <div id="tabs-3">
+                        <p>Renascent employs 90 professional staff spread through the Sydney and Melbourne offices; from head office administration, cost planning/estimating through dedicated work health and safety, contract administration, and project management teams working across all of our <br>projects.</p>
+    </div>
+    
+    <div id="tabs-4">
+                    <p>The company's core capability is undertaking construction, fit-out and refurbishment works<br>and understanding the intricacies of interfacing on a construction site within a live operating <br>environment. Our experience spans across all of the various sectors including general<br>commercial, state and federal government, hospitality, education and health sectors.</p>
+    </div>
+   
+</div>
+
+
+</div><!--Div content element-->
+
+<!--Main content-->
+
+<!--"content-element" ensures, that content is placed within the right margins-->
+<!--Div content-element-->
+
+<!--
+############################################################################
+ImageSlideshow #############################################################
+############################################################################
+-->
+
+<!--Div imgscroll-content-->
+
+<!--Initiating the slideshow by calling the JS-->
+<script src="js/imgscroll.js" type="text/javascript"></script>
+
+<!--
+############################################################################
+ImageSlideshow End #########################################################
+############################################################################
+-->
+
+
+  <!--
+############################################################################
+End of content #############################################################
+############################################################################
+-->
+  
+  
+
+</div><!--Div hyphenate-->
+
+  
+  
+  <!--
+############################################################################
+Start Footer ###############################################################
+############################################################################
+-->
+  
+
+<!--Include footer data from inc/footer.html-->
+<div class="footer">
+  <div id="includeFooter" csi:src="inc/footer.html"></div>
+</div><!--Div footer-->
+
+<!--
+############################################################################
+End Footer #################################################################
+############################################################################
+-->
+
+</body>
+</html>
